@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SelectorView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(220, 120, 40, 40);
+    [btn addTarget:self action:@selector(showSelectView) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+}
+
+- (void)showSelectView {
+    [[SelectorView selectViewInstance] popSelectView];
 }
 
 - (void)didReceiveMemoryWarning {

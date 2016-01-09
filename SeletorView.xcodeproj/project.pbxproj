@@ -15,6 +15,8 @@
 		266287B51C3AB79A00F3F2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266287B31C3AB79A00F3F2E2 /* LaunchScreen.storyboard */; };
 		266287C01C3AB79A00F3F2E2 /* SeletorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266287BF1C3AB79A00F3F2E2 /* SeletorViewTests.m */; };
 		266287CB1C3AB79A00F3F2E2 /* SeletorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266287CA1C3AB79A00F3F2E2 /* SeletorViewUITests.m */; };
+		266287DA1C3ABB3F00F3F2E2 /* SelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 266287D91C3ABB3F00F3F2E2 /* SelectorView.m */; };
+		266287DD1C3AC11600F3F2E2 /* SelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 266287DC1C3AC11600F3F2E2 /* SelectTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		266287C61C3AB79A00F3F2E2 /* SeletorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeletorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266287CA1C3AB79A00F3F2E2 /* SeletorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeletorViewUITests.m; sourceTree = "<group>"; };
 		266287CC1C3AB79A00F3F2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266287D81C3ABB3E00F3F2E2 /* SelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorView.h; sourceTree = "<group>"; };
+		266287D91C3ABB3F00F3F2E2 /* SelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorView.m; sourceTree = "<group>"; };
+		266287DB1C3AC11600F3F2E2 /* SelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableViewCell.h; sourceTree = "<group>"; };
+		266287DC1C3AC11600F3F2E2 /* SelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				266287A91C3AB79A00F3F2E2 /* AppDelegate.m */,
 				266287AB1C3AB79A00F3F2E2 /* ViewController.h */,
 				266287AC1C3AB79A00F3F2E2 /* ViewController.m */,
+				266287D81C3ABB3E00F3F2E2 /* SelectorView.h */,
+				266287D91C3ABB3F00F3F2E2 /* SelectorView.m */,
+				266287DB1C3AC11600F3F2E2 /* SelectTableViewCell.h */,
+				266287DC1C3AC11600F3F2E2 /* SelectTableViewCell.m */,
 				266287AE1C3AB79A00F3F2E2 /* Main.storyboard */,
 				266287B11C3AB79A00F3F2E2 /* Assets.xcassets */,
 				266287B31C3AB79A00F3F2E2 /* LaunchScreen.storyboard */,
@@ -274,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				266287AD1C3AB79A00F3F2E2 /* ViewController.m in Sources */,
+				266287DA1C3ABB3F00F3F2E2 /* SelectorView.m in Sources */,
+				266287DD1C3AC11600F3F2E2 /* SelectTableViewCell.m in Sources */,
 				266287AA1C3AB79A00F3F2E2 /* AppDelegate.m in Sources */,
 				266287A71C3AB79A00F3F2E2 /* main.m in Sources */,
 			);
